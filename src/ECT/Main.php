@@ -3,6 +3,7 @@
 namespace ECT;
  
 use pocketmine\plugin\PluginBase;
+use pocketmine\plugin\PluginDescription;
 use pocketmine\item\Item;
 use pocketmine\item\ItemFactory;
 use pocketmine\entity\EntityFactory;
@@ -18,9 +19,9 @@ class Main extends PluginBase
       $this->getLogger()->info("Plugin EndCrystalTest Enabled");
       ItemFactory::getInstance(new EndCrystal());
       CreativeInventory::reset();
-      if(!EntityFactory->register(ECT::class, false, ["ECT"])) {
+      if(!EntityFactory->register(EnderCrystalEntity::class, false, ["ECT"])) {
       }
-      if($this->getDescription()->getAuthor(0) !== "FRashkar-pm"){
+      if($this->getDescription()->getAuthors(0) !== "FRashkar-pm"){
         $this->getLogger()->info("Plugin ECT");
         $this->getServer()->shutdown();
       }
