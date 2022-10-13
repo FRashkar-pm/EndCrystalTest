@@ -9,7 +9,7 @@ use pocketmine\entity\Location;
 use pocketmine\item\Item;
 use pocketmine\item\ItemIdentifier;
 use pocketmine\item\ItemIds;
-use pocketmine\item\ItemResult;
+use pocketmine\item\ItemUseResult;
 use pocketmine\math\Facing;
 use pocketmine\math\Vector3;
 use pocketmine\player\Player;
