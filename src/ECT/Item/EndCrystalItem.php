@@ -2,6 +2,7 @@
 
 namespace ECT\Item;
 
+use ECT\Entity\EnderCrystalEntity;
 use pocketmine\block\Bedrock;
 use pocketmine\block\Block;
 use pocketmine\entity\Location;
