@@ -17,7 +17,7 @@ class Main extends PluginBase
     public function onEnable(): void 
     {
       $this->getLogger()->info("Plugin EndCrystalTest Enabled");
-      ItemFactory::getInstance(new EndCrystal());
+      ItemFactory::getInstance(new EndCrystalItem());
       CreativeInventory::reset();
       if(!EntityFactory->register(EnderCrystalEntity::class, false, ["ECT"])) {
       }
