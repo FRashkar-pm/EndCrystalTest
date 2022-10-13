@@ -3,7 +3,7 @@
 namespace ECT\Entity;
 
 use pocketmine\entity\Entity;
-use pocketmine\entity\EntitySizeInfo:
+use pocketmine\entity\EntitySizeInfo;
 use pocketmine\event\entity\EntityDamageEvent;
 use pocketmine\nbt\tag\CompoundTag;
 use pocketmine\network\mcpe\protocol\types\entity\EntityIds;
