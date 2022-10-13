@@ -1,6 +1,6 @@
 <?php
 
-namespace ECT
+namespace ECT;
  
 use pocketmine\plugin\PLuginBase;
 use pocketmine\item\Item;
