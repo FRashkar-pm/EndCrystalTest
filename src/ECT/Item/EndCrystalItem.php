@@ -13,7 +13,7 @@ use pocketmine\math\Facing;
 use pocketmine\math\Vector3;
 use pocketmine\player\Player;
 
-class EndCrystalItem extend Items {
+class EndCrystalItem extends Items {
   
   public function __construct(){
       parent::__construct(new ItemIdentifier(ItemIds::END_CRYSTAL, 0), "End Crystal");
