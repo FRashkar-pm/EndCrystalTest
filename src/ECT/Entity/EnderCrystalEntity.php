@@ -1,6 +1,6 @@
 <?php
 
-namespace ECT/Entity;
+namespace ECT\Entity;
 
 use pocketmine\entity\Entity;
 use pocketmine\entity\EntitySizeInfo:
