@@ -1,6 +1,6 @@
 <?php
 
-namespace ECT/Item;
+namespace ECT\Item;
 
 use pocketmine\block\Bedrock;
 use pocketmine\block\Block;
